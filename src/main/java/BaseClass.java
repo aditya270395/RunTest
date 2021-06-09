@@ -8,7 +8,7 @@ public class BaseClass {
 
     public static void BrowserOpen()	
     {
-        System.setProperty("webdriver.chrome.driver","/home/knoldus/Aditya/chromedriver_linux64 (1)/chromedriver");
+        System.setProperty("webdriver.chrome.driver","/home/knoldus/Downloads/Run/chromedriver_linux64/chromedriver");
          driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().deleteAllCookies();
